@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: rgb(124, 72, 173);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+#timer {
+    text-align: center;
+}
+
+#timer h1 {
+    font-size: 300px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 1.3em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:darkslategrey;
+}
+.start {
+    background-color: green;
+}
+
+.pause {
+    background-color: red;
+}
+
+.reset {
+    background-color: gray  ;
+}
